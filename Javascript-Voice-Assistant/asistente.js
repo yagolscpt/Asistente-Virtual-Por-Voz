@@ -54,8 +54,8 @@ if (annyang) {
           'maria': function () {
             utter.text='';
             frases = ['hola Maria , como estas hoy ? Espero que estes disfrutando de tu dia.',
-            'me dijo un pajarito que te gustan los porritos yo de eso se mucho , drogas sinteticas...krack ...      setas tambien ',
-            'Hola Maria soy tu asistente , te abro el acceso a tus carpetas y a las cosas que puedes acceder del sistema',
+            ' ',
+           'Hola Maria soy tu asistente , te abro el acceso a tus carpetas y a las cosas que puedes acceder del sistema',
         ];
          utter.text = frases[Math.floor(Math.random() * frases.length)]
         utter.voice=voices[1];
